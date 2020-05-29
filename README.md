@@ -24,7 +24,7 @@ sudo bash install_geographiclib_datasets.sh
 mkdir ~/src; cd ~/src
 git clone https://github.com/PX4/Firmware.git --recursive
 cd ~/src/Firmware
-make px4_sitl_default
+make px4_sitl_default jmavsim
 ```
 4. Create ROS catkin workspace and build the package:
 ```bash
